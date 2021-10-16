@@ -5,7 +5,7 @@ import Email from '../svg/Email';
 import Facebook from '../svg/facebook';
 import LinkedIn from '../svg/LinkeIn';
 import WhatsApp from '../svg/WhatsApp';
-import {Link} from 'react-router-dom'
+
 
 
 

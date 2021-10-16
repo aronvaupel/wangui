@@ -1,7 +1,7 @@
 .wrapper{
     height: 100vh;
     display:grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto 1fr 10%;
 }
 
 .header{
@@ -38,6 +38,11 @@ h3{
     margin-top: 1rem;
     color: var(--clr-accent);
     
+}
+
+span {
+    color:#a5a8ae;
+    font-weight: 400;
 }
 
 h4 {

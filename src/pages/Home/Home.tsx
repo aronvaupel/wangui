@@ -18,7 +18,7 @@ function Home(): JSX.Element {
       <main className={styles.main}>
         <section id={'section1'} className={styles.section}>
         <img src="/assets/1.webp" alt="" className={styles.img}/>
-        <h3>Wangui Gathere Advocates</h3>
+        <h3>WANGUI GATHERE <span>ADVOCATES</span></h3>
        <h4>Integrity Professionalism Efficency</h4>
        <p>Our mission is to provide efficient and professional legal services tailored to meet the needs of clients, domestically, regionally and internationally.</p>
        </section>
