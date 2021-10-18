@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { animated } from 'react-spring';
 import Menu from '../menu/menu';
 import BurgerButton from '../svg/burger';
@@ -18,14 +19,14 @@ const openMenu =() => {
 
   return (
     <div className={styles.header}>
+      <Link to={'/'}>
       <img src="/assets/logo.webp" alt="logo" />
+      </Link>
       <div className={styles.links}>
       <button onClick={openMenu} className={styles.button} >
       <BurgerButton aria-label='open menu'/>
       </button >
-      <Menu showMenu={showMenu} setShowMenu={setShowMenu} style={animated} onClick={function (): void {
-          throw new Error('Function not implemented.');
-        } }/>
+      <Menu showMenu={showMenu} setShowMenu={setShowMenu} style={animated} onClick={openMenu}/>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React  from 'react';
+import { Link } from 'react-router-dom';
 import { animated, useSpring } from 'react-spring';
 import styles from './menu.module.css';
 
@@ -17,19 +18,25 @@ const animation = useSpring({
   transform: showMenu ? `translateX(0%)`:`translateX(100%)`
 })
 
-function closeMenu()  {
- setShowMenu(false)
-}
+
 
   return (
     <>
-    {showMenu ? <div className={styles.wrapper}  onClick={closeMenu}> 
+    {showMenu ? <div className={styles.wrapper}  onClick={onClick}> 
       <animated.div style={animation}>
       <div className={styles.menu}>
-      <a href="/team"><h3>Our <span>TEAM </span></h3> </a>
-      <a href="/services"><h3>Our <span>SERVICES</span></h3></a>
-      <a href="/location"><h3>Our <span>LOCATION</span></h3></a>
-      <a href="/disclaimer"><h3>Our <span>DISCLAIMER</span></h3></a>
+        <Link to={'/team'}>
+      <h3>Our <span>TEAM </span></h3> 
+      </Link>
+      < Link to={'/services'}>
+     <h3>Our <span>SERVICES</span></h3>
+        </Link>
+      <Link to={'/location'}>
+      <h3>Our <span>LOCATION</span></h3>
+      </Link>
+      <Link to={'/disclaimer'}>
+      <h3>Our <span>DISCLAIMER</span></h3>
+      </Link>
     </div>
     </animated.div>
     </div> : null}

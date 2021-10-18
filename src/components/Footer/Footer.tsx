@@ -13,10 +13,10 @@ import WhatsApp from '../svg/WhatsApp';
 const Footer = (): JSX.Element => {
   return (
     <div className={styles.footer}>
-     <a href='https://www.facebook.com/'>
+     <a href='https://www.facebook.com/112272384568417/posts/112275211234801/'>
       < Facebook />
       </a >
-      <a href='https://www.linkedin.com/'>
+      <a href='https://www.linkedin.com/in/wangui-gathere-advocates-231531223/'>
       <LinkedIn />
       </a >
       <a href="https://wa.me/+254729020866">
