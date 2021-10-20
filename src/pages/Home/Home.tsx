@@ -10,8 +10,9 @@ import Footer from '../../components/Footer/Footer';
 
 
 function Home(): JSX.Element {
- 
+
   return (
+   
     <div className={styles.wrapper}>
       <div className={styles.header}>
         <Header />
@@ -43,7 +44,8 @@ function Home(): JSX.Element {
        </HashLink></section>
       </main>
     <Footer />
-    </div>
+    </div> 
+  
   );
 }
 export default Home;

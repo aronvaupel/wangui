@@ -1,7 +1,7 @@
 .wrapper{
     height: 100vh;
     display:grid;
-    grid-template-rows: auto 1fr 10%;
+    grid-template-rows: auto 1fr;
 }
 
 .header{
@@ -16,51 +16,68 @@
 .section{
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-family:'Poppins', sans-serif;
-    font-weight: 200;
-    background-color: var(--clr-background);
+    justify-content: flex-start;
+    background-color: transparent;
+    height:88vh;
+    padding-bottom: 0;
 }
-.img{
-    object-fit: cover;
-    width: 100%;
-}
+
 
 .links{
     scroll-behavior: smooth;
 }
 
-h3{ 
-    font-family:'Poppins', sans-serif;
-    font-weight: 900;
-    margin:0;
-    margin-top: 1rem;
-    color: var(--clr-accent);
-    
-}
 
-span {
-    color:#a5a8ae;
-    font-weight: 400;
-}
-
-h4 {
+.subheader {
+    display:box;
+    width:100%;
    font-family: 'Italianno', cursive;
-    color: var(--clr-text);
+    color: transparent;
     margin: 0;
-    font-size: 1.8rem;
-    font-weight: 200;
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+@keyframes fadeIn {
+  from {color: transparent;}
+  to {color: var(--clr-background);}
+}
+
+
+.subheaderAnimation {
+    display:box;
+    width:100%;
+    font-family: 'Italianno', cursive;
+    color: var(--clr-background);
+    margin: 0;
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 3rem;
+    animation-name: fadeIn;
+    animation-duration: 4s;
 }
 
 .pWrapper{
     padding:2rem;
-}
-
-p {
-    color: var(--clr-text);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: var(--clr-background);
     margin: 0;
-    color:var(--clr-text-secondary);
     font-family:'Poppins', sans-serif;
     font-weight: 400;
+    font-size: 1.5rem;
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 0;
 }
