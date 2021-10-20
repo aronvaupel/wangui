@@ -20,7 +20,7 @@
     background-color: transparent;
     height:88vh;
     padding: 2rem;
-    
+    background-color: var(--clr-background);
     
 }
 
@@ -68,12 +68,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: flex-start;
     color: var(--clr-background);
     margin: 0;
     font-family:'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
+    border: 1 px solid var(--clr-text);
+    width:100%;
 }
 
 

@@ -51,11 +51,11 @@ function HomeDesktop(this: any): JSX.Element {
               Wangui Gathere we aim to provide comprehensive legal services
               geared at achieving our clients’ business, personal and
               professional goals.
-            </p><HashLink to={"/#section5"} className={styles.links} smooth={true}>
+            </p>
+          </div>
+          <HashLink to={"/#section5"} className={styles.links} smooth={true}>
             <Arrow />
           </HashLink>
-          </div>
-          
         </section>
 
         <section id={"section3"} className={styles.section}>
@@ -69,11 +69,11 @@ function HomeDesktop(this: any): JSX.Element {
               client’s business so that our clients can focus their attention on
               the success of their business. Our vision reflects our values:
               integrity, service, excellence and teamwork.
-            </p><HashLink to={"/#section1"} className={styles.links} smooth={true}>
+            </p>
+          </div>
+          <HashLink to={"/#section1"} className={styles.links} smooth={true}>
             <ArrowUp />
           </HashLink>
-          </div>
-          
         </section>
 
         <section id="section5" className={styles.footer}>
