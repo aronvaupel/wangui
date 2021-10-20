@@ -19,7 +19,7 @@
     justify-content: flex-start;
     background-color: transparent;
     height:88vh;
-    padding: 2rem;
+    padding: 0;
 }
 
 
@@ -62,7 +62,7 @@
 
 .pWrapper{
     padding:2rem;
-    width: 35%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
