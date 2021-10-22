@@ -3,7 +3,6 @@
     display:grid;
     grid-template-rows: auto 1fr 10%;
     overflow:hidden;
-}
 
 .header{
     height: 100%;
