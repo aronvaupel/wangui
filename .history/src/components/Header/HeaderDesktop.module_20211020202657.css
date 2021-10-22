@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--clr-background);
+    text-decoration: none;
+  }  
+
+
+
+h1{
+    font-family:'Poppins', sans-serif;
+    font-weight: 900;
+    margin:0;
+    margin-top: 1rem;
+    color: var(--clr-accent);
+    font-size: 3rem;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: 30vw;
+}
+
+h3{ 
+    font-family:'Poppins', sans-serif;
+    font-weight: 900;
+    margin:0;
+    margin-top: 1rem;
+    color: var(--clr-accent);
+    
+}
+
+span {
+    color:#a5a8ae;
+    font-weight: 400;
+}
