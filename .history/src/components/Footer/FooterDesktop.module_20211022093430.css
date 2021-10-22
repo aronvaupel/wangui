@@ -1,0 +1,13 @@
+.footer {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--clr-accent);
+    padding: 1rem;
+   height:100%;
+}
+
+.follow {
+    dislplay:flex;
+    
+}

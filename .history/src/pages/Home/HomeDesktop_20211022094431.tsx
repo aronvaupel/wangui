@@ -7,8 +7,6 @@ import { HashLink } from "react-router-hash-link";
 import "react-scroll";
 import Footer from "../../components/Footer/Footer";
 import Arrow from "../../components/svg/arrow";
-import HeaderDesktop from "../../components/Header/HeaderDesktop";
-import FooterDesktop from "../../components/Footer/FooterDesktop";
 
 function HomeDesktop(this: any): JSX.Element {
   return (
@@ -82,7 +80,7 @@ function HomeDesktop(this: any): JSX.Element {
         </section>
 
         <section id="section5" className={styles.footer}>
-          <FooterDesktop />
+          <Footer />
         </section>
       </main>
     </div>
