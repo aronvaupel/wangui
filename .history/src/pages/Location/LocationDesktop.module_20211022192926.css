@@ -43,7 +43,7 @@
   border-radius: 5px;
   box-shadow: 1px 1px 3px var(--clr-text-secondary);
   animation-name: fadeIn;
-  animation-duration: 5s;
+  animation-duration: 4s;
 }
 
 h3 {
@@ -87,7 +87,8 @@ p {
   border-radius: 5px;
   box-shadow: 1px 1px 3px var(--clr-text-secondary);
    animation-name: fadeIn;
-  animation-duration: 5s;
+  animation-duration: 4s;
+  an
 }
 
 .map {

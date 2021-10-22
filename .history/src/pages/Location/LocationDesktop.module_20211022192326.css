@@ -21,14 +21,13 @@
 
 @keyframes fadeIn {
   from {
-    opacity: 0;
+    display: hidden;
   }
   to {
-    opacity: 1;
+    display: flex;
   }
 }
 .section {
-  visibility: visible;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,7 +42,6 @@
   border-radius: 5px;
   box-shadow: 1px 1px 3px var(--clr-text-secondary);
   animation-name: fadeIn;
-  animation-duration: 5s;
 }
 
 h3 {
@@ -86,8 +84,6 @@ p {
   width: 30vw;
   border-radius: 5px;
   box-shadow: 1px 1px 3px var(--clr-text-secondary);
-   animation-name: fadeIn;
-  animation-duration: 5s;
 }
 
 .map {
