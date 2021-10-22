@@ -1,0 +1,7 @@
+
+
+.arrow:hover {
+  fill: var(--clr-background);
+  stroke: var(--clr-background);
+  
+}

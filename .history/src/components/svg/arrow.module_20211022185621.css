@@ -1,0 +1,24 @@
+@keyframes signal {
+  0% {
+    color: transparent;
+  }
+  25% {
+    color: var(--clr-background);
+  }
+ 50% {
+      color:var(--clr-text)
+  }
+  75% {
+    color: var(--clr-background);
+}
+to {
+      color:var(--clr-text)
+  }
+}
+
+.arrow:hover {
+    fill:var(--clr-background);
+    stroke:var(--clr-background);
+    animation-name: signal;
+    animation-duration: 4s;
+}

@@ -91,7 +91,7 @@ function HomeDesktop(this: any): JSX.Element {
                 className={styles.links}
                 smooth={true}
               >
-                <ArrowUp />
+                <ArrowUp className={styles.arrow}/>
               </HashLink>
            
           </div>

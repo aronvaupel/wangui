@@ -35,16 +35,15 @@ function HomeDesktop(this: any): JSX.Element {
               services tailored to meet the needs of clients, domestically,
               regionally and internationally.
             </p>{" "}
-           
+            <div className={styles.arrow}>
               <HashLink
                 to={"/#section2"}
                 className={styles.links}
                 smooth={true}
-                
               >
-                <Arrow />
+                <Arrow className=/>
               </HashLink>
-            
+            </div>
           </div>
         </section>
 
@@ -61,7 +60,7 @@ function HomeDesktop(this: any): JSX.Element {
               geared at achieving our clients’ business, personal and
               professional goals.
             </p>{" "}
-            
+            <div className={styles.arrow}>
               <HashLink
                 to={"/#section5"}
                 className={styles.links}
@@ -69,7 +68,7 @@ function HomeDesktop(this: any): JSX.Element {
               >
                 <Arrow />
               </HashLink>
-           
+            </div>
           </div>
         </section>
 
@@ -85,7 +84,7 @@ function HomeDesktop(this: any): JSX.Element {
               the success of their business. Our vision reflects our values:
               integrity, service, excellence and teamwork.
             </p>{" "}
-           
+            <div className={styles.arrow}>
               <HashLink
                 to={"/#section1"}
                 className={styles.links}
@@ -93,7 +92,7 @@ function HomeDesktop(this: any): JSX.Element {
               >
                 <ArrowUp />
               </HashLink>
-           
+            </div>
           </div>
         </section>
 

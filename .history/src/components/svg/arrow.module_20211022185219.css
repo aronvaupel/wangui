@@ -1,0 +1,22 @@
+@keyframes fadeIn {
+  from {
+    color: transparent;
+  }
+  to {
+    color: var(--clr-background);
+  }
+  to {
+      color:var(--clr-text)
+  }
+  to {
+    color: var(--clr-background);
+}
+to {
+      color:var(--clr-text)
+  }
+}
+
+.arrow:hover {
+    fill:var(--clr-background);
+    stroke:var(--clr-background);
+}

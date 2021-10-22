@@ -29,6 +29,7 @@
   scroll-behavior: smooth;
 }
 
+
 .subheader {
   display: box;
   width: 100%;
@@ -41,6 +42,14 @@
   margin-bottom: 3rem;
 }
 
+@keyframes fadeIn {
+  from {
+    color: transparent;
+  }
+  to {
+    color: var(--clr-background);
+  }
+}
 
 .subheader {
   display: box;

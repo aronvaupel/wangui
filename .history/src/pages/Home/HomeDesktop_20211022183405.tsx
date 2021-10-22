@@ -40,9 +40,9 @@ function HomeDesktop(this: any): JSX.Element {
                 to={"/#section2"}
                 className={styles.links}
                 smooth={true}
-                
+                activeClassName={styles.active}
               >
-                <Arrow />
+                <Arrow className={styles.arrow}/>
               </HashLink>
             
           </div>
@@ -67,7 +67,7 @@ function HomeDesktop(this: any): JSX.Element {
                 className={styles.links}
                 smooth={true}
               >
-                <Arrow />
+                <Arrow className={styles.arrow}/>
               </HashLink>
            
           </div>
@@ -91,7 +91,7 @@ function HomeDesktop(this: any): JSX.Element {
                 className={styles.links}
                 smooth={true}
               >
-                <ArrowUp />
+                <ArrowUp className={styles.arrow}/>
               </HashLink>
            
           </div>

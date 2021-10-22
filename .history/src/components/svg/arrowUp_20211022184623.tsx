@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './arrowUp.module.css' 
+impoert style
 
 const ArrowUp = (props: React.SVGProps<SVGSVGElement>): JSX.Element => {
   return (

@@ -41,6 +41,14 @@
   margin-bottom: 3rem;
 }
 
+@keyframes fadeIn {
+  from {
+    color: transparent;
+  }
+  to {
+    color: var(--clr-background);
+  }
+}
 
 .subheader {
   display: box;
