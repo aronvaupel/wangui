@@ -60,6 +60,13 @@ p {
     padding:0;
 }
 
+.img{
+    object-fit: contain;
+    
+    width: 100%;
+}
+
+
 .mapWrapper {
     padding: 1rem;
     background-color: var(--clr-background);
