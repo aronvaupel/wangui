@@ -10,7 +10,7 @@ const HeaderDesktop = ({ type }: HeaderProps): JSX.Element => {
   function Header(): string {
     if (type === "home") {
       return "WANGUI GATHERE";
-    } else if (type === "location" || type === "team" || type === "services") {
+    } else if (type === "location" || type ==="team" || type ==="services") {
       return "OUR";
     } else {
       return "DIS";
@@ -19,7 +19,7 @@ const HeaderDesktop = ({ type }: HeaderProps): JSX.Element => {
 
   function HeaderSpan(): string {
     if (type === "home") {
-      return "ADVOCATES";
+      return " A D VOCATES";
     } else if (type === "location") {
       return " LOCATION";
     } else if (type === "team") {
