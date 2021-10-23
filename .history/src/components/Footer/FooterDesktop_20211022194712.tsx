@@ -6,7 +6,6 @@ import Facebook from "../svg/facebook";
 import LinkedIn from "../svg/LinkeIn";
 import WhatsApp from "../svg/WhatsApp";
 
-
 const FooterDesktop = (): JSX.Element => {
   return (
     <div className={styles.footer}>
