@@ -19,15 +19,6 @@
   align-items: center;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 .section {
   display: flex;
   align-items: center;
@@ -41,14 +32,7 @@
   margin: 1rem 0 2rem 0;
   width: 80%;
   height:auto;
-  animation-name: fadeIn;
-  animation-duration: 5s;
-   border-radius: 5px;
-  box-shadow: 1px 1px 3px var(--clr-text-secondary);
-  
 }
-
-
 
 .headLine {
   font-family: "Poppins", sans-serif;
@@ -86,10 +70,6 @@ p {
   background-color: var(--clr-background);
   margin-bottom: 1rem;
   width: 80%;
-  animation-name: fadeIn;
-  animation-duration: 5s;
-   border-radius: 5px;
-  box-shadow: 1px 1px 3px var(--clr-text-secondary);
 }
 
 .map {

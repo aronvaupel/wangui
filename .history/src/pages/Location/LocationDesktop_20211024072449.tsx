@@ -22,7 +22,7 @@ function LocationDesktop(): JSX.Element {
         }}
       >
         <section id={"section1"} className={styles.section}>
-          <h3 className={styles.headLine}>
+          <h3 className={styles.header}>
             WANGUI GATHERE <span>ADVOCATES</span>
           </h3>
           <h3 className={styles.title}>

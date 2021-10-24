@@ -43,8 +43,6 @@
   height:auto;
   animation-name: fadeIn;
   animation-duration: 5s;
-   border-radius: 5px;
-  box-shadow: 1px 1px 3px var(--clr-text-secondary);
   
 }
 
@@ -88,8 +86,6 @@ p {
   width: 80%;
   animation-name: fadeIn;
   animation-duration: 5s;
-   border-radius: 5px;
-  box-shadow: 1px 1px 3px var(--clr-text-secondary);
 }
 
 .map {

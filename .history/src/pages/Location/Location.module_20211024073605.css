@@ -15,17 +15,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 .section {
@@ -41,21 +32,14 @@
   margin: 1rem 0 2rem 0;
   width: 80%;
   height:auto;
-  animation-name: fadeIn;
-  animation-duration: 5s;
-   border-radius: 5px;
-  box-shadow: 1px 1px 3px var(--clr-text-secondary);
-  
 }
-
-
 
 .headLine {
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   color: var(--clr-accent);
   font-size: inherit;
-  padding-bottom:0.25rem;
+  padding:0;
   margin:0;
 }
 
@@ -68,12 +52,12 @@ span {
   font-family: "Poppins", sans-serif;
   font-weight:400;
   font-size:inherit;
-  padding-top:0;
+  padding:0;
   color: var(--clr-accent);
 }
 
 p {
-  margin: 0.5rem 0 0 0;
+  margin: 0;
   color: var(--clr-text-secondary);
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -86,10 +70,6 @@ p {
   background-color: var(--clr-background);
   margin-bottom: 1rem;
   width: 80%;
-  animation-name: fadeIn;
-  animation-duration: 5s;
-   border-radius: 5px;
-  box-shadow: 1px 1px 3px var(--clr-text-secondary);
 }
 
 .map {
