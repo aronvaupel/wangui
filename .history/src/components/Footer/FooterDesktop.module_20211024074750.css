@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-evenly;
   background-color: var(--clr-accent);
+  padding: 2rem;
   height: auto;
 }
 
@@ -11,7 +12,6 @@
   align-items: center;
   justify-content: flex-start;
   width: 10vw;
-  padding-bottom: 1rem;;
 }
 
 .contactLinks {
@@ -19,7 +19,7 @@
   align-items: center;
   justify-content: flex-start;
   width: 25vw;
-  padding-bottom: 1rem;
+  padding:1rem;
 }
 
 h6 {
