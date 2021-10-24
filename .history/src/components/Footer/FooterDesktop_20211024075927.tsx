@@ -3,7 +3,7 @@ import styles from "./FooterDesktop.module.css";
 import Call from "../svg/Call";
 import Email from "../svg/Email";
 import Facebook from "../svg/facebook";
-import LinkedIn from "../svg/LinkedIn";
+import LinkedIn from "../svg/LinkeIn";
 import WhatsApp from "../svg/WhatsApp";
 
 
@@ -36,7 +36,7 @@ const FooterDesktop = (): JSX.Element => {
         </div>
       </div>
       <div className={styles.disclaimer}>
-        <a href="/disclaimer" >
+        <a href="/disclaimer">
           <h4 className={styles.disclaimerLink}>Disclaimer</h4>
         </a>
       </div>

@@ -46,7 +46,7 @@ h6 {
   padding-right: 0.5rem;
 }
 
-.disclaimerLink:hover{
-  color:var(--clr-text);
+.footerText:hover{
+  stroke:var(--clr-text);
 }
 

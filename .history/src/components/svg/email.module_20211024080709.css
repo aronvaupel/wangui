@@ -1,0 +1,4 @@
+.hover:hover {
+  fill:var(--clr-text);
+  stroke:var(--clr-text);
+}

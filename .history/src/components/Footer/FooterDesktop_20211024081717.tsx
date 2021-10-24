@@ -36,7 +36,7 @@ const FooterDesktop = (): JSX.Element => {
         </div>
       </div>
       <div className={styles.disclaimer}>
-        <a href="/disclaimer" >
+        <a href="/disclaimer">
           <h4 className={styles.disclaimerLink}>Disclaimer</h4>
         </a>
       </div>

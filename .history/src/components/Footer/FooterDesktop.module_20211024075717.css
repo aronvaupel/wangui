@@ -42,11 +42,11 @@ h6 {
   font-size: 1rem;
 }
 
-.link {
+a {
   padding-right: 0.5rem;
 }
 
-.disclaimerLink:hover{
-  color:var(--clr-text);
+a:hover {
+  fill:var(--clr-accent);
+  stroke:var(--clr-accent);
 }
-
