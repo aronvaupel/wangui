@@ -38,7 +38,7 @@ function App(): JSX.Element {
           </>
         ) : (
           <>
-           <Route exact path="/services">
+           <Route exact path="/team">
               <ServicesDesktop />
             </Route>
            <Route exact path="/team">

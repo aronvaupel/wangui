@@ -39,16 +39,24 @@
   font-family: "Italianno", cursive;
   color: var(--clr-background);
   margin: 0;
-  font-size: 7rem;
+  font-size: 6rem;
   font-weight: 200;
   text-align: center;
   margin-bottom: 2rem;
   border-bottom: 1px solid var(--clr-background);
+  
+}
+
+.text{
+     font-family:'Poppins', sans-serif;
+    font-weight: 200;
+    color: var(--clr-background);
+    font-size: 1rem;
 }
 
 .pWrapper {
   padding: 1rem;
-  width: 35%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,6 +66,9 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
+  backdrop-filter: blur(5px);
+  background-color: transparent;
+  box-shadow: 2px 2px 5px 5px transparent;
 }
 
 .footer {

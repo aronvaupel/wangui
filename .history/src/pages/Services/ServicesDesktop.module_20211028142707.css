@@ -30,7 +30,17 @@
   margin-top: 2rem;
 }
 
-
+.subheader {
+  display: box;
+  width: 100%;
+  font-family: "Italianno", cursive;
+  color: transparent;
+  margin: 0;
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 3rem;
+}
 
 
 .subheader {
