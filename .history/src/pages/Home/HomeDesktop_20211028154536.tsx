@@ -16,7 +16,6 @@ function HomeDesktop(this: any): JSX.Element {
       <div className={styles.header}>
         <HeaderDesktop type={"home"} />
       </div>
-     
       <main
         className={styles.main}
         style={{
@@ -27,7 +26,7 @@ function HomeDesktop(this: any): JSX.Element {
           backgroundPosition: "center right",
           width: "100vw",
         }}
-      > 
+      >
         <section id={"section1"} className={styles.section}>
           <div className={styles.pWrapper}>
             <h2 className={styles.subheader}>Integrity</h2>

@@ -19,10 +19,10 @@
 .section {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: transparent;
   height: 88vh;
-  padding: 10rem;
+  padding:10rem;
 }
 
 .links {
@@ -30,7 +30,12 @@
   margin-top: 2rem;
 }
 
-
+.text{
+     font-family:'Poppins', sans-serif;
+    font-weight: 200;
+    color: var(--clr-background);
+    font-size: 1rem;
+}
 
 
 .subheader {
@@ -39,27 +44,19 @@
   font-family: "Italianno", cursive;
   color: var(--clr-background);
   margin: 0;
-  font-size: 6rem;
+  font-size: 7rem;
   font-weight: 200;
   text-align: center;
   margin-bottom: 2rem;
   border-bottom: 1px solid var(--clr-background);
-  
-}
-
-.text{
-     font-family:'Poppins', sans-serif;
-    font-weight: 400;
-    color: var(--clr-background);
-    font-size: 1rem;
 }
 
 .pWrapper {
-  padding: 1rem;
+  padding:1rem;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   color: var(--clr-background);
   margin: 2rem 0 0 0;

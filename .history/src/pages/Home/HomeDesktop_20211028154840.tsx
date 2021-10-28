@@ -16,7 +16,7 @@ function HomeDesktop(this: any): JSX.Element {
       <div className={styles.header}>
         <HeaderDesktop type={"home"} />
       </div>
-     
+      <div className={styles.bgDarkener}>
       <main
         className={styles.main}
         style={{
@@ -27,7 +27,7 @@ function HomeDesktop(this: any): JSX.Element {
           backgroundPosition: "center right",
           width: "100vw",
         }}
-      > 
+      >
         <section id={"section1"} className={styles.section}>
           <div className={styles.pWrapper}>
             <h2 className={styles.subheader}>Integrity</h2>
@@ -101,7 +101,7 @@ function HomeDesktop(this: any): JSX.Element {
         <section id="section5" className={styles.footer}>
           <FooterDesktop />
         </section>
-      </main>
+      </main></div>
     </div>
   );
 }
