@@ -22,6 +22,7 @@
   justify-content: flex-start;
   background-color: transparent;
   height: 88vh;
+  padding: 2rem;
 }
 
 .links {
@@ -57,7 +58,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
-  backdrop-filter: blur(5px);
+   backdrop-filter: blur(5px);
   background-color: transparent;
   box-shadow: 1px 1px 5px 1px var(--clr-background);
 }
