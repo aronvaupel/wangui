@@ -9,22 +9,19 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function OurTeam(): JSX.Element {
   const team = [
-    {
-      type: "mobile",
+    { type:'mobile',
       firstName: "Wangui",
       familyName: "Gathere",
       imageSrc: "/assets/Wangui.webp",
       text: "Wangui Gathere is the managing partner at the firm. She holds a Bachelor of Law degree from the University of Nairobi and a Post Graduate Diploma in Law from the Kenya School of Law. She heads the Litigation and Commercial law department at the firm.For Wangui every case she takes up is personal and not just another case file. Besides practicing law, Wangui is big on advocacy and is an ambassador at the International Federation of Psoriasis Associations(IFPA).",
     },
-    {
-      type: "mobile",
+    {type:'mobile',
       firstName: "Lenah",
       familyName: "Moenga",
       imageSrc: "/assets/Lenah.webp",
       text: "Lenah Moenga is an Advocate of the High Court of Kenya with an LL.B Degree from the University of Nairobi, a Post Graduate Diploma in Law from the Kenya School of Law  and currently undertaking LLM in Law, Governance and Democracy at the University of Nairobi. She specializes in Human Rights Law, Refugee Law, Gender and Child Protection.",
     },
-    {
-      type: "mobile",
+    {type:'mobile',
       firstName: "David",
       familyName: "Kanyeki",
       imageSrc: "/assets/David.webp",
@@ -54,7 +51,7 @@ function OurTeam(): JSX.Element {
             {team.map((item, i) => (
               <TeamCard
                 key={i}
-                type="mobile"
+                type='mobile'
                 firstName={item.firstName}
                 familyName={item.familyName}
                 imageSrc={item.imageSrc}
@@ -65,8 +62,7 @@ function OurTeam(): JSX.Element {
         </div>
       </main>
       <div className={styles.footer}>
-        <Footer />
-      </div>
+      <Footer /></div>
     </div>
   );
 }

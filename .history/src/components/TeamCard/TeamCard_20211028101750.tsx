@@ -17,9 +17,7 @@ const TeamCard = ({
   type
 }: TeamCardProps): JSX.Element => {
   return (
-    <div className={` ${
-                type === 'mobile' ? styles.wrapper : styles.wrapperDesktop
-              }`}>
+    <div className={styles.wrapper}>
         <div className={styles.gapMaker}>
       <div className={styles.imageWrapper}>
         <img src={imageSrc} className={styles.image} />
