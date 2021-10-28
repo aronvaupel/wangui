@@ -50,7 +50,7 @@ function OurTeam(): JSX.Element {
             infiniteLoop={true}
             showStatus={false}
             className={styles.carousel}
-            transitionTime= {1000}
+            transitionTime= {2000}
           >
             {team.map((item, i) => (
               <TeamCard

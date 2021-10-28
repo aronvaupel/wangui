@@ -54,7 +54,7 @@ function OurTeamDesktop(): JSX.Element {
             className={styles.carousel}
             useKeyboardArrows
             ariaLabel='Team members and bio'
-            transitionTime={1500}
+            transitionTime={20}
           >
             {team.map((item, i) => (
               <TeamCard
