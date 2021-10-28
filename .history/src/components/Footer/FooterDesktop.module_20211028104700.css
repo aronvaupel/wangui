@@ -4,7 +4,6 @@
   justify-content: space-evenly;
   background-color: var(--clr-accent);
   height: auto;
-  padding: 1rem;
 }
 
 .followLinks {
@@ -12,6 +11,7 @@
   align-items: center;
   justify-content: flex-start;
   width: 10vw;
+  padding-bottom: 2rem;;
 }
 
 .contactLinks {
@@ -19,14 +19,13 @@
   align-items: center;
   justify-content: flex-start;
   width: 25vw;
+  padding-bottom: 2rem;
 }
 
 h6 {
   color: var(--clr-background);
   font-family: "Poppins", sans-serif;
   font-weight: 200;
-  margin:0 ;
-  padding-bottom: 0.5rem;
 }
 
 .disclaimer {

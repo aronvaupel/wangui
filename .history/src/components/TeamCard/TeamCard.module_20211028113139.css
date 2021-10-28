@@ -8,11 +8,11 @@
   background-color: transparent;
 }
 .wrapperDesktop{
-   width:100%;
+   width:100vw;
    display: flex;
    justify-content: center;
    align-items: center;
-   padding: 10rem;
+   padding: 20rem;
   background-color: transparent;
 }
 
@@ -27,16 +27,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height:65vh;
+  height: 65vh;
   background-color: var(--clr-background);
   border-radius: 5px;
-  padding: 1rem;
-}
-
-@media only screen and (max-width:1100px) {
-  .gapMakerDesktop {
-    flex-direction: column;
-  }
+  padding: 3rem;
 }
 
 .imageWrapper {
@@ -44,7 +38,7 @@
 }
 
 .imageWrapperDesktop {
-  width: 50%;
+  width: 100%;
 }
 
 .image {
@@ -54,7 +48,6 @@
 
 .imageDesktop {
   object-fit: contain;
-  width:100%
 }
 
 .articleWrapper {
@@ -76,7 +69,6 @@
   background-color: var(--clr-background);
   width:50%;
   padding: 1rem;
-  overflow: hidden;
 }
 
 .name {
@@ -84,21 +76,13 @@
   font-size: 0.75rem;
   font-weight: 900;
   font-family: "Poppins", sans-serif;
-  padding: 0;
-  margin:0;
 }
 
 .nameDesktop {
   color: var(--clr-accent);
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: 900;
   font-family: "Poppins", sans-serif;
-}
-
-@media only screen and (max-width:1100px) {
-  .nameDesktop {
-    font-size: .9rem;
-  }
 }
 
 .text {
@@ -107,8 +91,6 @@
   color: var(--clr-text-secondary);
   text-align: left;
   font-size: .6rem;
-  padding:0;
-  margin:0;
 }
 
 .textDesktop {
@@ -116,11 +98,5 @@
   font-weight: 400;
   color: var(--clr-text-secondary);
   text-align: left;
-  font-size: .8rem;
-}
-
-@media only screen and (max-width:1100px) {
-  .textDesktop {
-    font-size: 0.6rem;
-  }
+  font-size: 1rem;
 }

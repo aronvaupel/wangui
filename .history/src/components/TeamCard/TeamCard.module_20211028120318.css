@@ -84,8 +84,6 @@
   font-size: 0.75rem;
   font-weight: 900;
   font-family: "Poppins", sans-serif;
-  padding: 0;
-  margin:0;
 }
 
 .nameDesktop {
@@ -107,8 +105,6 @@
   color: var(--clr-text-secondary);
   text-align: left;
   font-size: .6rem;
-  padding:0;
-  margin:0;
 }
 
 .textDesktop {

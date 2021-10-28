@@ -8,7 +8,6 @@ import HomeDesktop from "./pages/Home/HomeDesktop";
 import Location from "./pages/Location/Location";
 import LocationDesktop from "./pages/Location/LocationDesktop";
 import OurTeam from "./pages/OurTeam/OurTeam";
-import OurTeamDesktop from "./pages/OurTeam/OurTeamDesktop";
 
 function App(): JSX.Element {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
@@ -34,7 +33,7 @@ function App(): JSX.Element {
         ) : (
           <>
            <Route exact path="/team">
-              <OurTeamDesktop />
+              <DisclaimerDesktop />
             </Route>
             <Route exact path="/disclaimer">
               <DisclaimerDesktop />
