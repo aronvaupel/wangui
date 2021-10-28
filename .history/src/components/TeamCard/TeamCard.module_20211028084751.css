@@ -1,0 +1,43 @@
+.wrapper {
+  height: 60vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: var(--clr-background);
+  padding: 1rem;
+}
+
+.imageWrapper {
+  height: 50%;
+}
+
+.image {
+  object-fit: contain;
+}
+
+.articleWrapper {
+  background-color: var(--clr-background);
+  height: 50%;
+}
+
+.name {
+  color: var(--clr-accent);
+  font-size: 1rem;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  color: var(--clr-text);
+  font-family: "Italianno", cursive;
+}
+
+.text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: var(--clr-text-secondary);
+  padding: 1rem;
+}

@@ -1,0 +1,28 @@
+.wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr 10%;
+  overflow: hidden;
+}
+
+.header {
+    width:100vw;
+  border-bottom: 1px solid var(--clr-text);
+}
+
+.main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.carouselWrapper {
+  height: 70vh;
+  width: 100%;;
+}
+
+.footer {
+    width:100vw;
+}

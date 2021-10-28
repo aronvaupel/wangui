@@ -1,0 +1,23 @@
+.wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr 10%;
+  overflow: hidden;
+}
+
+.header {
+  height: 100%;
+  border-bottom: 1px solid var(--clr-text);
+}
+
+.main {
+  height: 100%;
+  display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.carouselWrapper{
+    height: 60vh;
+}
