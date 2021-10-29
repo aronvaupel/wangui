@@ -1,0 +1,38 @@
+.wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  overflow: hidden;
+}
+
+.header {
+width:100%;
+  border-bottom: 1px solid var(--clr-text);
+}
+
+.main {
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ 
+}
+
+.carouselWrapper {
+  width: 100%;
+}
+
+.footer {
+  position:absolute;
+  z-index: 1;
+  bottom: 0;
+  left:0;
+  width:100vw;
+  visibility: hidden;
+}
+
+.footer:hover {
+
+  visibility: hidden;
+}

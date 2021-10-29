@@ -1,0 +1,139 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-self: center;
+  padding: 1rem;
+  background-color: transparent;
+}
+.wrapperDesktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+}
+
+.gapMaker {
+  height: 65vh;
+  background-color: var(--clr-background);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.gapMakerDesktop {
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(7px);
+  background-color: transparent;
+  border: 1px solid var(--clr-background);
+  border-radius: 5px;
+}
+
+.imageWrapper {
+  height: 50%;
+}
+
+.imageWrapperDesktop {
+  height: 100%;
+}
+
+.image {
+  border-radius: 5px 0 0 5px;
+  object-fit: cover;
+  height: 50%;
+}
+
+.imageDesktop {
+  object-fit: cover;
+  height: 100%;
+}
+
+.articleWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50%;
+  padding-top: 1rem;
+}
+
+.articleWrapperDesktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--clr-background);
+  width: 50%;
+  padding: 1rem;
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+  background-color: transparent;
+}
+
+.name {
+  color: var(--clr-accent);
+  font-size: 0.75rem;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.nameDesktop {
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: "Italianno", cursive;
+  color: var(--clr-background);
+  text-shadow: 0 1 1 1 var(--clr-text-secondary);
+}
+
+.text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: var(--clr-text-secondary);
+  text-align: left;
+  font-size: 0.6rem;
+  padding: 0;
+  margin: 0;
+}
+
+.textDesktop {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: var(--clr-background);
+  text-align: left;
+  font-size: 1rem;
+  text-shadow: 0 1 1 1 var(--clr-text-secondary);
+}
+
+@media only screen and (max-width: 1024px) {
+  .nameDesktop {
+    font-size: 1.5rem;
+   padding-bottom: 0;
+  }
+  .gapMakerDesktop {
+    flex-direction: column;
+    align-items: flex-start;
+    width:65vw;
+    height:55vh;
+    margin:auto;
+  }
+  .articleWrapperDesktop {
+    width: 100%;
+  }
+  .imageWrapperDesktop {
+    height: 45%;
+    width: 100%;
+  }
+
+  .textDesktop{
+    font-size: 0.7rem;
+  }
+
+  .image{
+    height:auto;
+  }
+  
+}
