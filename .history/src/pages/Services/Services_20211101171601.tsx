@@ -31,7 +31,7 @@ function Services(): JSX.Element {
         <section id={"section2"} className={styles.section}>
           <img src="/assets/12.webp" alt="" className={styles.img} />
           <div className={styles.pWrapper}>
-            <h4 className={styles.h4}>Corporate and Commercial</h4>
+            <h4 className={styles.h4}>Corporate and commercial</h4>
             <div className={styles.pWrapper}>
               <p className={styles.p}>
                 Ranges from international sales of goods and services, joint
