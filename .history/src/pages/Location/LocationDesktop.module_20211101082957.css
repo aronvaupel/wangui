@@ -14,7 +14,7 @@
 .main {
   height: 100%;
   display: flex;
-  justify-content: center;;
+  justify-content: space-evenly;
   align-items: center;
   overflow: hidden;
   padding:10rem;
@@ -49,21 +49,19 @@
 }
 
 .nameDesktop {
-  font-size: 5rem;
+  font-size: 2.5rem;
   font-weight: 400;
   font-family: "Italianno", cursive;
   color: var(--clr-background);
   text-shadow: 0 1 1 1 var(--clr-text-secondary);
-  text-align: center;
 }
 
 .title{
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: "Italianno", cursive;
   color: var(--clr-background);
   text-shadow: 0 1 1 1 var(--clr-text-secondary);
-  text-align: center;
 }
 
 

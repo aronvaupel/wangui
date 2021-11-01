@@ -22,7 +22,7 @@ function LocationDesktop(): JSX.Element {
           backgroundPosition: "center",
         }}
       >
-        
+        <div className={styles.darkener}>
           <div className={styles.gapMakerDesktop}>
             <div className={styles.mapWrapper}>
               <iframe
@@ -41,7 +41,7 @@ function LocationDesktop(): JSX.Element {
               </p>
             </section>
           </div>
-       
+        </div>
       </main>
 
       <div className={styles.footer}>
