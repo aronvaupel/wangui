@@ -68,7 +68,7 @@
 
 @-moz-document url-prefix() {
     .section{
-      background-color: hsla(0, 0%, 0%, 0.3);
+      background-color: hsla(0, 0%, 0%,1);
     }
 }
 
