@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--clr-background);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+}
