@@ -55,7 +55,6 @@
   color: var(--clr-background);
   text-shadow: 0 1 1 1 var(--clr-text-secondary);
   text-align: center;
-  margin:0;
 }
 
 .title{
