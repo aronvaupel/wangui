@@ -64,7 +64,7 @@ function HomeDesktop(this: any): JSX.Element {
             </p>{" "}
             
               <HashLink
-                to={"/#section3"}
+                to={"/#section5"}
                 className={styles.links}
                 smooth={true}
               >

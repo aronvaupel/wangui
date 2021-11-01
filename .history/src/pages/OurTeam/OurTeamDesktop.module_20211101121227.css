@@ -17,6 +17,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+ 
+
+ 
 }
 
 .carouselWrapper {
@@ -26,7 +29,6 @@
   width: 100%;
   background-color: hsla(0, 0%, 0%, .6);
   height:100%;
-  padding:1rem;
 }
 
 .footer {

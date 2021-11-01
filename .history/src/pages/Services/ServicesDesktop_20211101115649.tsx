@@ -69,7 +69,7 @@ function ServicesDesktop(this: any): JSX.Element {
               contracts and rights, property development, finance, leases and
               banking securities
             </p>{" "}
-            <HashLink to={"/services/#section4"} className={styles.links} smooth={true}>
+            <HashLink to={"/services/#section5"} className={styles.links} smooth={true}>
               <Arrow />
             </HashLink>
           </div>

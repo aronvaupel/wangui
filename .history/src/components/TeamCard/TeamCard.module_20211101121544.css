@@ -3,6 +3,7 @@
   justify-content: space-around;
   align-items: center;
   align-self: center;
+  padding: 1rem;
   background-color: transparent;
 }
 .wrapperDesktop {
@@ -12,6 +13,11 @@
   padding: 10rem;
 }
 
+.gapMaker {
+  height: 65vh;
+  background-color: var(--clr-background);
+  border-radius: 5px;
+}
 
 .gapMakerDesktop {
   height: 65vh;

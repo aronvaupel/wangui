@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: space-evenly;
   background-color: var(--clr-accent);
-  height: 10vh;
+  height: 10vh;;
   padding: 1rem;
   opacity: 0;
 }

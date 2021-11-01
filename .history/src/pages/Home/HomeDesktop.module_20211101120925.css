@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: flex-start;
   background-color: transparent;
-  height: 90vh;
+  height: 100%;;
   padding:10rem;
   background-color: hsla(0, 0%, 0%, 0.25);
 }
@@ -69,7 +69,7 @@
   backdrop-filter: blur(5px);
   background-color: transparent;
   box-shadow: 1px 1px 5px 1px var(--clr-background);
-  height:62vh;
+  height:65vh;
 }
 
 .footer {

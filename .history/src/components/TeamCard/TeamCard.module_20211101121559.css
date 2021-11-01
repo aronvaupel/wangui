@@ -12,6 +12,11 @@
   padding: 10rem;
 }
 
+.gapMaker {
+  height: 65vh;
+  background-color: var(--clr-background);
+  border-radius: 5px;
+}
 
 .gapMakerDesktop {
   height: 65vh;

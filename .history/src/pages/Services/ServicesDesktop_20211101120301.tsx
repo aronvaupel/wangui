@@ -22,7 +22,7 @@ function ServicesDesktop(this: any): JSX.Element {
           backgroundImage: "url(" + "/assets/10.webp" + ")",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          backgroundPosition: "top",
+          backgroundPosition: "center",
           width: "100%",
         }}
       >
