@@ -21,8 +21,8 @@
   50% { opacity:0; }
   60% {opacity:0 ; }
   70% { opacity:0 ; }
-  80% { opacity:0 ; }
-  90% { opacity:0.5; }
+  80% { opacity:0.33 ; }
+  90% { opacity:0.66 ; }
   100% { opacity: 1; }
 }
 
@@ -35,7 +35,9 @@
   background-color: transparent;
   border: 1px solid var(--clr-background);
   border-radius: 5px;
-  
+  overflow: hidden;
+  animation-name: fadeIn;
+  animation-duration: 1s;
 }
 
 .imageWrapper {
@@ -44,9 +46,6 @@
 
 .imageWrapperDesktop {
   height: 100%;
-  overflow: hidden;
-  animation-name: fadeIn;
-  animation-duration: 1s;
 }
 
 .image {
@@ -80,9 +79,6 @@
   overflow: hidden;
   backdrop-filter: blur(5px);
   background-color: transparent;
-  overflow: hidden;
-  animation-name: fadeIn;
-  animation-duration: 1s;
 }
 
 .name {

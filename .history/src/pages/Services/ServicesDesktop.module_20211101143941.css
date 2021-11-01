@@ -25,25 +25,9 @@
   padding: 10rem;
 }
 
-@keyframes fadeIn {
-  0% { opacity:0 ; }
-  10% { opacity:0 ; }
-  20% {opacity:0 ; }
-  30% { opacity:0 ; }
-  40% { opacity:0; }
-  50% { opacity:0; }
-  60% {opacity:0 ; }
-  70% { opacity:0 ; }
-  80% { opacity:0.33 ; }
-  90% { opacity:0.66 ; }
-  100% { opacity: 1; }
-}
-
 .links {
   scroll-behavior: smooth;
   margin-top: 2rem;
-  animation-name: fadeIn;
-  animation-duration: 1s;
 }
 
 
@@ -53,7 +37,7 @@
   display: box;
   width: 100%;
   font-family: "Italianno", cursive;
- 
+  color: var(--clr-background);
   margin: 0;
   font-size: 6rem;
   font-weight: 200;
