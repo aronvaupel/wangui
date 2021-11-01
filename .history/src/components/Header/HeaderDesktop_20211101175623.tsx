@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { animated } from "react-spring";
-import Menu from "../menu/menu";
 import BurgerButton from "../svg/burger";
 import styles from "./HeaderDesktop.module.css";
 
@@ -52,12 +50,6 @@ const HeaderDesktop = ({ type }: HeaderProps): JSX.Element => {
       <button onClick={openMenu} className={styles.button}>
           <BurgerButton aria-label="open menu" />
         </button>
-        <Menu
-          showMenu={showMenu}
-          setShowMenu={setShowMenu}
-          style={animated}
-          onClick={openMenu}
-        />
       <div className={styles.links}>
         <NavLink
           to={"/team"}

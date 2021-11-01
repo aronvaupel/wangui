@@ -4,7 +4,6 @@
   align-items: center;
   background-color: var(--clr-background);
   text-decoration: none;
-  height: 10vh;
 }
 
 h1 {
@@ -16,9 +15,9 @@ h1 {
   font-size: 3rem;
 }
 
-@media only screen and (max-width:1260px) {
+@media only screen and (max-width:1024px) {
   h1 {
-  visibility:hidden;
+   opacity:0;
   }
 }
 
@@ -28,26 +27,6 @@ h1 {
   justify-content: space-evenly;
   padding: 1rem;
   width: 30vw;
-}
-
-@media only screen and (max-width:1260px) {
- .links {
-   visibility:hidden;
-  }
-}
-
-.button {
-  border:none;
-  position: absolute;
-  top: 2.5rem;
-  right: 2.5rem;
-  opacity: 0;
-}
-
-@media only screen and (max-width:1260px) {
- .button {
-   opacity:1;
-  }
 }
 
 .active {

@@ -1,7 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import { animated } from "react-spring";
-import Menu from "../menu/menu";
 import BurgerButton from "../svg/burger";
 import styles from "./HeaderDesktop.module.css";
 
@@ -10,12 +8,6 @@ export type HeaderProps = {
 };
 
 const HeaderDesktop = ({ type }: HeaderProps): JSX.Element => {
- const [showMenu, setShowMenu] = useState(false);
-
-  const openMenu = () => {
-    setShowMenu((menu) => !menu);
-  };
-
   function Header(): string {
     if (type === "home") {
       return "WANGUI GATHERE";
@@ -49,15 +41,7 @@ const HeaderDesktop = ({ type }: HeaderProps): JSX.Element => {
         {Header()}
         <span className={styles.headerAnimationSpan}>{HeaderSpan()}</span>
       </h1>
-      <button onClick={openMenu} className={styles.button}>
-          <BurgerButton aria-label="open menu" />
-        </button>
-        <Menu
-          showMenu={showMenu}
-          setShowMenu={setShowMenu}
-          style={animated}
-          onClick={openMenu}
-        />
+      <BurgerButton className={styles.burgerButton}/>
       <div className={styles.links}>
         <NavLink
           to={"/team"}

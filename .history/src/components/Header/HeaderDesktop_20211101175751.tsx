@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { animated } from "react-spring";
-import Menu from "../menu/menu";
 import BurgerButton from "../svg/burger";
 import styles from "./HeaderDesktop.module.css";
 

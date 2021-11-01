@@ -18,7 +18,7 @@ h1 {
 
 @media only screen and (max-width:1260px) {
   h1 {
-  visibility:hidden;
+  display:hidden;
   }
 }
 
@@ -32,12 +32,11 @@ h1 {
 
 @media only screen and (max-width:1260px) {
  .links {
-   visibility:hidden;
+   display:hidden;
   }
 }
 
-.button {
-  border:none;
+.burgerButton {
   position: absolute;
   top: 2.5rem;
   right: 2.5rem;
@@ -45,7 +44,7 @@ h1 {
 }
 
 @media only screen and (max-width:1260px) {
- .button {
+ .burgerButton {
    opacity:1;
   }
 }
