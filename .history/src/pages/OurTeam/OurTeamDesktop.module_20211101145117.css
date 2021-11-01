@@ -46,7 +46,7 @@
 .carousel{
 overflow: hidden;
 animation-name: rollOut;
-animation-duration: .7s;
+animation-duration: .5s;
 }
 
 .footer {
